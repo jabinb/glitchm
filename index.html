@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css" media="screen" />
+</head>
+	<body>
+		<div id="wrap">
+			<div id="source">
+				<video width="280" height="120" id="input-source" crossorigin="anonymous" muted loop autoplay controls>
+					<source src="https://i.imgur.com/e87eYpV.mp4" type="video/mp4">
+					You need an webm-supporting browser.
+				</video>
+			</div>
+			<div id="viz">
+				<canvas id="output-source"></canvas>
+		 	</div>
+		</div>
+		<iframe id="soundcloud" width="600" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/227544454&amp;auto_play=true&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+		<script type="text/javascript" src="js/analyser.js"></script>
+		<script type="text/javascript" src="js/glitcher.js"></script>
+		<script type="text/javascript" src="js/root.js"></script>
+	</body>
+</html>
